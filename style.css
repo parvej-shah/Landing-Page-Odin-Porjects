@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .logo {
@@ -11,8 +16,7 @@ body {
 }
 
 .main-text,
-.header-text,
-.main-button {
+.header-text {
     color: #E5E7EB;
     text-decoration-line: none;
     font-size: 18px;
@@ -66,10 +70,15 @@ body {
     margin-top: 5px;
     padding: 4px 20px;
     text-decoration-line: none;
+    color: #E5E7EB;
+    font-size: 15px;
+
 }
 
 .main-button:hover {
-    background-color: #1f2937;
+    background-color: #F9FAF8;
+    color: #3882f6;
+
 }
 
 header {
@@ -86,34 +95,114 @@ ul {
     margin-right: 36px;
 }
 
-.info-image{
+.info-image {
     height: 150px;
     width: 150px;
     border-radius: 16px;
 }
-.info-header{
+
+.info-header {
     font-size: 36px;
     color: #1F2937;
     font-weight: bolder;
 }
-.second-container{
+
+.second-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-top: 1em;
 }
-.information{
+
+.information {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
     padding-top: 25px;
     margin: 0;
-    padding:0;
+    padding: 0px 0px 60px;
 }
-.information .info-box{
+
+.information .info-box {
     width: 150px;
     text-align: center;
     flex: 1;
+}
+
+.third-container {
+    background: #E5E7EB;
+}
+
+.quote {
+    font-family: 'Patrick Hand SC',
+        cursive;
+    padding: 50px 250px 15px;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .quote-writer {
+    align-self: flex-end;
+    margin-top: 0;
+}
+
+.item-one h3,
+.item-one p {
+    margin: 0;
+
+}
+
+.item-one h3 {
+    font-weight: 700;
+    font-size: 22px;
+    color: #E5E7EB;
+}
+
+.item-one p {
+    color: #E5E7EB;
+}
+
+.item {
+    background: #3882F6;
+    padding: 40px 70px;
+    margin: 60px 150px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+.item .item-button {
+    align-self: flex-end;
+    border-style: none;
+    background: #3882F6;
+    color: #E5E7EB;
+    font-size: 15px;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 3px 20px;
+}
+
+.item-button:hover {
+    color: #3882F6;
+    background: #E5E7EB;
+    border: 2px solid #3882F6;
+
+}
+
+.fifth-container {
+    background-color: #1f2937;
+}
+
+.fifth-container p {
+    margin: 0px;
+    text-align: center;
+    padding: 20px 0px;
+    color: #F9FAF8;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
