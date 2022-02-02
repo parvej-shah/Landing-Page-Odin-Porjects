@@ -95,11 +95,6 @@ ul {
     margin-right: 36px;
 }
 
-.info-image {
-    height: 150px;
-    width: 150px;
-    border-radius: 16px;
-}
 
 .info-header {
     font-size: 36px;
@@ -131,8 +126,25 @@ ul {
     flex: 1;
 }
 
+.info-box {
+    height: 250px;
+    width: 155px;
+}
+
 .third-container {
     background: #E5E7EB;
+}
+
+.info-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 16px;
+}
+
+.info-image:hover {
+    height: 155px;
+    width: 155px;
+
 }
 
 .quote {
@@ -204,5 +216,5 @@ ul {
     text-align: center;
     padding: 20px 0px;
     color: #F9FAF8;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
